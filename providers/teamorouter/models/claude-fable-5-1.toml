@@ -1,5 +1,7 @@
 # Source: https://api.teamorouter.com/v1/models/pricing (accessed 2026-10-13)
+# Effort: output_config.effort = low|medium|high|xhigh|max
 base_model = "anthropic/claude-fable-5-1"
+structured_output = true
 reasoning_options = [{ type = "effort", values = ["low", "medium", "high", "xhigh", "max"] }]
 
 [cost]
